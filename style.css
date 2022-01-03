@@ -1,0 +1,27 @@
+body{
+    background-color:seagreen;
+}
+
+#div1{
+    background: tan;
+    padding: 10px;
+    border-style: groove;
+    border-color:wheat;
+    border-width: 20px;
+}
+
+#div2{
+    background: wheat;
+    padding: 10px;
+    border-style: groove;
+    border-color:tan;
+    border-width: 20px;
+}
+
+#loginbutton{
+    background:slategray;
+    color: lightpink;
+    width: 200px;
+    height: 100px;
+    font-size: large;
+}
