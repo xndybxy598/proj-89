@@ -9,38 +9,32 @@
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 
         <link rel = "stylesheet" type = "text/css" href  = "style.css">
-        <script src = "script.js"></script>
+        <script src = "quiz_game_login.js"></script>
     </head>
 
     <body>
-        
-        <h4 id = "player1_name"></h4> <span id = player1_score></span>
-	    <br>
-	    <h4 id = "player2_name"></h4> <span id = player2_score></span>
+    
         <center>
         <div class = container>
             <center>
                 <h1 style="color:lightpink;">Math Quiz Game</h2>
-		        <h3 id = "player_question"></h3>
-		        <h3 id = "player_answer"></h3>
-		        <div id = "output" class = "col-lg-6"></div>
-		        <br>
-		        <br>
             </center>
         </div>
 
-        <div id = "div1" class = container>
+        <div id = "div1" class = "container" class = "col-lg-4 col-sm-8 col-xs-11 login_div1">
             <h2>Player 1 Login</h2>
             <h4>username:</h4>
-            <input placeholder = "player 1's name here"></input>
+            <input type = "text" id = "player1_name_input" class = "form-control" placeholder = "player 1's name here"></input>
         </div>
 
         <br><br><br>
 
-        <div id = "div2" class = container>
+        <div id = "div2" class = "container" class = "col-lg-4 col-sm-8 col-xs-11 login_div2">
+            <center>
             <h2>Player 2 Login</h2>
             <h4>username:</h4>
-            <input placeholder = "player 2's name here"></input>
+            <input type = "text" id = "player2_name_input" class = "form-control" placeholder = "player 2's name here"></input>
+            </center>
         </div>
 
         <br><br><br><br>

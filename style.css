@@ -16,7 +16,7 @@ body{
     border-style: groove;
     border-color:tan;
     border-width: 20px;
-}
+} 
 
 #loginbutton{
     background:slategray;
@@ -25,3 +25,8 @@ body{
     height: 100px;
     font-size: large;
 }
+
+#heading1{
+    color:lightpink;
+}
+
